@@ -1,0 +1,48 @@
+body {
+    color: #ffffff;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+a.button-1 {
+    padding: 0.7em 1.7em;
+    background: #2e86de;
+    border: solid 2px #2e86de;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: 0.1s;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+a.button-2 {
+    padding: 0.7em 1.7em;
+    border: solid 2px #b1b1b1;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #2d2d2d;
+    font-size: 16px;
+    transition: 0.1s;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+a.button-1:hover{
+    background: #2b82d9;
+    border: solid 2px #2b82d9;
+    transition: 0.1s
+}
+a.button-2:hover{
+    background: #2e86de;
+    border: solid 2px #2e86de;
+    color: #ffffff;
+    transition: 0.1s
+}
+div.registration-buttons {
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
